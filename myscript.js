@@ -1,5 +1,5 @@
-var name = prompt("Insert your name");
-var surname = prompt("Now your surname");
-var favColor = prompt("Now your favorite colour");
+var myname = prompt("Insert your name");
+var mysurname = prompt("Now your surname");
+var mycolor = prompt("Now your favorite colour");
 
-document.getElementById('pw-gen').innerHTML=name + surname + color
+document.getElementById('pw-gen').innerHTML= myname + mysurname + mycolor + "21";
